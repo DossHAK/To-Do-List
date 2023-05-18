@@ -1,0 +1,58 @@
+.header {
+  background-color: #4486db;
+  margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .background p {
+  margin: auto 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.header .background span {
+  display: flex;
+}
+.header .background button {
+  margin: auto 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.header .background #bg button:nth-child(1) {
+  background-color: red;
+}
+.header .background #bg button:nth-child(2) {
+  background-color: green;
+}
+.header .background #bg button:nth-child(3) {
+  background-color: blue;
+}
+.header .background #bg button:nth-child(4) {
+  background-color: white;
+}
+
+.container #clear, .container #add {
+  background-color: #fff;
+}
+.container span {
+  margin-right: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.container .list-group-item:hover {
+  background-color: #2f65fa;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
